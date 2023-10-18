@@ -1,2 +1,2 @@
 # Attendance-System
-This is face recongnization attenadance system
+This is face recongnization attendance system
