@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid greenyellow; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    width: 50vw;
+    height: 480px;
+    background: white;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.first-container{
+    width: 40%;
+    margin-left: 7%;
+}
+#logo img {
+    width: 8rem;
+    height: 7rem;
+}
+
+#logo {
+    width: 70%;
+    margin: 0px auto;
+    /* border: 2px solid red; */
+}
+#logo h4{
+    width:100%;
+    display: block;
+    margin:auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+input[type='text'], input[type='password']{
+    margin-top: 1.1rem;
+    width: 100%;
+    height: 2.1rem;
+    outline: none;
+    border: 1px solid black;
+    /* margin-left: 10%; */
+    border-radius: 4px;
+    padding-left: .5rem;
+}
+input[type='text']:focus{
+    transition: .17S border;
+    border: 2px solid rgb(50, 146, 255);
+}
+input[type='password']:focus{
+    transition: .17s border;
+    border: 2px solid rgb(50, 146, 255);
+}
+.btn{
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    box-shadow: rgb(59, 113, 202) 0px 4px 9px -4px;
+    width: 100%;
+    margin-top: 1.1rem;
+    /* margin-left: 10%; */
+    height: 2.1rem;
+    border-radius: 4px;
+
+
+}
+.btn:hover{
+    cursor: pointer;
+    outline: none;
+}
+form #forgetpassword{
+    margin: .5rem 0rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.signUP{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signUP #registration{
+    text-decoration: none;
+    color: black;
+    width: 83%;
+}
+.btn1{
+    font-size: 0.9rem;
+    padding: 4px;
+    width: 40%;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    border-radius: 4px;
+    border: 2.5px solid #dc4c64;
+    color: #dc4c64;
+    font-weight: bold;
+
+}
+.second-container{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 7%;
+    width: 50%;
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    /* opacity: .8; */
+}
