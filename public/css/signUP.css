@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-card {
+    position: absolute;
+    right: 7%;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card {
+    background: white;
+    box-shadow: 1px 1px 6px 1px black;
+    border-radius: 8px;
+    margin-top: 2.42rem;
+    width: 33vw;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+form {
+    height: 500px;
+    margin-top: 2.8rem;
+    font-size: 1.1rem;
+}
+label{
+    font-weight: bold;
+}
+input[type="text"],
+[type="number"],
+[type="email"],
+[type="password"] {
+    width: 12vw;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.contact-info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.student-info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.student-id-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.college-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.password-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.password-first-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-second-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.gender-container label{
+    font-size: 14px;
+}
+.gender-container {
+    margin-top: 1rem;
+    width: 29vw;
+    margin-left: 5%;
+}
+.gender-container p{
+    display: inline-block;
+}
+
+.registerbtn {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    margin-top: 2rem;
+    width: 85%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    background: rgb(0, 163, 233);
+    padding: 17px 60px;
+    box-shadow: 1px 4px 6px rgb(71, 105, 255);
+    border-radius: 8px;
+}
+#btn:active{
+    box-shadow: 1px 1px rgb(71, 105, 255);
+}
+.haveaccount{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.loginbutton{
+    color: black;
+}
+
+#loginbtn{
+    margin-left: 10px;
+    background: rgb(0, 163, 233);
+    padding: 4px 8px;
+    border: 2px solid rgb(0, 140, 201);
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+

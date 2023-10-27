@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form | Attendance System</title>
+    <link rel="icon" href="/public/images/signup.png" type="image/x-icon">
+    <link rel="stylesheet" href="/public/css/signUP.css">
+</head>
+
+<body>
+    <div class="main-card">
+        <div class="card">
+            <h2>Register yourself</h2>
+            <form action="/" method="post">
+
+                <div class="name-container">
+                    <div class="first">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" placeholder="e.g. John" required>
+                    </div>
+
+                    <div class="last">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" placeholder="e.g. smith" required>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="email-container">
+                        <label for="Email">Email</label>
+                        <input type="email" name="email" placeholder="john@gmail.com" required>
+                    </div>
+
+                    <div class="phone-container">
+                        <label for="contact">Contact</label>
+                        <input type="number" name="phone" placeholder="+00 0000000000" required>
+                    </div>
+                </div>
+
+                <div class="student-info">
+                    <div class="student-id-container">
+                        <label for="Student-id">Student-Id</label>
+                        <input type="number" name="student-id" placeholder="XXXXX" required>
+                    </div>
+
+                    <div class="college-name">
+                        <label for="college">College</label>
+                        <input type="text" name="college" placeholder="XYZ college" required>
+                    </div>
+                </div>
+
+                <div class="password-container">
+                    <div class="password-first-container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Enter password">
+                </div>
+
+                <div class="password-second-container">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" placeholder="Confirm password">
+                </div>
+                </div>
+
+                <div class="gender-container">
+                    
+                    <p for="Gender">Please select your gender:</p>
+                    <input type="radio" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="Transgender">
+                    <label for="transgender">Transgender</label>
+                </div>
+                <div class="registerbtn">
+                    <button type="submit" id="btn"><span>Register Now</span></button>
+                </div>
+                <div class="haveaccount">
+                    <span><a href="/" class="loginbutton">Already have an account?</a></span>
+                    <span><a href="/" id="loginbtn" class="loginbutton">Login Now</a></span>
+                </div>
+
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
